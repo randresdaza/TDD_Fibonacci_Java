@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.fibonacci.FibonacciTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in com.mycompany.fibonacci.FibonacciTest
-testFibonacci2  Time elapsed: 0.01 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <[0, 1, 5, 2, 3, 5]> but was: <[0, 1, 1, 2, 3, 5]>
-	at com.mycompany.fibonacci.FibonacciTest.testFibonacci2(FibonacciTest.java:34)
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in com.mycompany.fibonacci.FibonacciTest
+testFibonacci0  Time elapsed: 0.02 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <[0]>
+	at com.mycompany.fibonacci.FibonacciTest.testFibonacci0(FibonacciTest.java:15)
 
